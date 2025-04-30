@@ -140,4 +140,4 @@ while not tickets_available:
         print(f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')} Tickets not available. Retrying in {fetch_status_delay} seconds...")
         time.sleep(fetch_status_delay)
 
-# get_dates_of_available_tickets(tickets_bsobj)
+get_dates_of_available_tickets(tickets_bsobj)
