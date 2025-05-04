@@ -7,6 +7,7 @@ from urllib import request
 from bs4 import BeautifulSoup
 from twilio.rest import Client
 
+
 # User-defined constants
 recipient_contact_number = "+911234567890"  # Recipient's phone number for notifications
 tickets_date = "2025-04-02"  # Desired date for ticket notifications, format "YYYY-MM-DD"
